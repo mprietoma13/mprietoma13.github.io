@@ -1,7 +1,6 @@
   body {
     font-family: sans-serif;
   }
-  
   header {
     background-color: #000;
     color: #fff;
@@ -17,34 +16,32 @@
     height: 100px;
     align-items: baseline;
   }
-.Boton{
+  .Boton{
   border: 2px solid ;
   padding: 20px;
   background-color: azure;
   color: #000;
-  font-size: 2em;
-}
-.recetas {
-    width: 100%;
-    margin-top: 40px;
+  font-size: 1rem;
+  }
+  .recetas {
     display: flex ;
     height: 500px;
-    align-items: baseline;
-    justify-content: baseline;
-}
-  .recetas h2{
-    position:relative;
-    left: 675px;
-    bottom: 230px;
-  }
-  h1 {
-    font-size: 4em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    bottom: 100px;
   }
 
-  .recetas img{
-    height: 70%;
+  .recetas h2{
+    position:relative;
+    left: 500px;
+    bottom: 120px;
+    font-size: 1.5rem;
   }
-  
+  h1 {
+    font-size: 3rem;
+  }
+
   main {
     width: 80%;
     margin: 0 auto;
@@ -56,11 +53,11 @@
   }
   
   p{
-    font-size: 2.5em;
+    font-size: 1.5rem;
   }
 
   h2 { 
-    font-size: 3em;
+    font-size: 2rem;
   }
   
   ul {
@@ -71,28 +68,28 @@
   
   li {
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 1rem;
   }
 
   .Introduccion img{
     position: relative;
-    left: 2050px;
+    left: 1050px;
     width: 7%;
     height: 10%;
-    bottom: 450px;
+    bottom: 280px;
   }
 
   .Utilidades img{
     position: relative;
-    height: 400px;
-    left: 1700px;
-    bottom: 500px;
+    height: 300px;
+    left: 800px;
+    bottom: 250px;
     background-color: #f2f2f2;
   }
   .Utilidades {
     background-color: #f2f2f2;
-    line-height: 5em;
-    height: 950px;
+    line-height: 2rem;
+    height: 300px;
   }
   .Boton a{
     color: #000;
@@ -101,7 +98,7 @@
   a {
     color: #000;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   
   .banner {
@@ -111,27 +108,27 @@
   }
 
   .recetas .caja img {
-    height: 180px;
-    width: 180px;
+    height: 80%;
+    width: 80%;
     top: 0;
     display: flex;
-    flex-wrap: wrap;
   }
 
   .caja{
     border: 2px solid ;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     margin: 20px;
     padding: 20px;
-    
+    font-size: 1.5rem;
   }
+
   header a{
     color: #f2f2f2;
   }
 
   .Introduccion h2{
-    font-size: 7em;
+    font-size: 3rem;
   }
 
   footer{
@@ -139,4 +136,8 @@
     color: #fff;
     text-align: center;
     margin-top: 20px;
+  }
+  header div img{
+    width: 70%;
+
   }
