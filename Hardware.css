@@ -1,143 +1,143 @@
-  body {
-    font-family: sans-serif;
-  }
-  header {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  .Container{
-    margin-top: 40px;
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 100px;
-    align-items: baseline;
-  }
-  .Boton{
-  border: 2px solid ;
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
   padding: 20px;
-  background-color: azure;
-  color: #000;
+}
+.Container{
+  margin-top: 40px;
+  display:flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100px;
+  align-items: baseline;
+}
+.Boton{
+border: 2px solid ;
+padding: 20px;
+background-color: azure;
+color: #000;
+font-size: 1rem;
+}
+.recetas {
+  display: flex ;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  bottom: 100px;
+}
+
+.recetas h2{
+  position:relative;
+  left: 500px;
+  bottom: 120px;
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+h2 { 
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
   font-size: 1rem;
-  }
-  .recetas {
-    display: flex ;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    bottom: 100px;
-  }
+}
 
-  .recetas h2{
-    position:relative;
-    left: 500px;
-    bottom: 120px;
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
+.Introduccion img{
+  position: relative;
+  left: 1050px;
+  width: 7%;
+  height: 10%;
+  bottom: 280px;
+}
 
-  main {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #f2f2f2;
-  }
-  
-  div {
-    margin-bottom: 20px;
-  }
-  
-  p{
-    font-size: 1.5rem;
-  }
+.Utilidades img{
+  position: relative;
+  height: 300px;
+  left: 800px;
+  bottom: 250px;
+  background-color: #f2f2f2;
+}
+.Utilidades {
+  background-color: #f2f2f2;
+  line-height: 2rem;
+  height: 300px;
+}
+.Boton a{
+  color: #000;
+  text-decoration: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
 
-  h2 { 
-    font-size: 2rem;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    font-size: 1rem;
-  }
+.banner {
+  position: relative;
+  width: auto;
+  height: auto;
+}
 
-  .Introduccion img{
-    position: relative;
-    left: 1050px;
-    width: 7%;
-    height: 10%;
-    bottom: 280px;
-  }
+.recetas .caja img {
+  height: 80%;
+  width: 80%;
+  top: 0;
+  display: flex;
+}
 
-  .Utilidades img{
-    position: relative;
-    height: 300px;
-    left: 800px;
-    bottom: 250px;
-    background-color: #f2f2f2;
-  }
-  .Utilidades {
-    background-color: #f2f2f2;
-    line-height: 2rem;
-    height: 300px;
-  }
-  .Boton a{
-    color: #000;
-    text-decoration: none;
-  }
-  a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  
-  .banner {
-    position: relative;
-    width: auto;
-    height: auto;
-  }
+.caja{
+  border: 2px solid ;
+  width: 170px;
+  height: 170px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 1.5rem;
+}
 
-  .recetas .caja img {
-    height: 80%;
-    width: 80%;
-    top: 0;
-    display: flex;
-  }
+header a{
+  color: #f2f2f2;
+}
 
-  .caja{
-    border: 2px solid ;
-    width: 170px;
-    height: 170px;
-    margin: 20px;
-    padding: 20px;
-    font-size: 1.5rem;
-  }
+.Introduccion h2{
+  font-size: 3rem;
+}
 
-  header a{
-    color: #f2f2f2;
-  }
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+header div img{
+  width: 70%;
 
-  .Introduccion h2{
-    font-size: 3rem;
-  }
-
-  footer{
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-  }
-  header div img{
-    width: 70%;
-
-  }
+}
